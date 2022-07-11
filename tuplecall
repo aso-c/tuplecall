@@ -1,8 +1,8 @@
 //
 // Calling function with parameters,
-// packeted in tuple.
+// packaged in a tuple.
 //
-// tuplecaller
+// tuplecall
 // Header file
 //
 // author: Solomatov A.A. (aso)
@@ -14,8 +14,8 @@
 //
 
 
-#ifndef __TUPLECALLER_ASO__
-#define __TUPLECALLER_ASO__
+#ifndef __TUPLECALL_ASO__
+#define __TUPLECALL_ASO__
 
 #include <functional>
 
@@ -98,4 +98,4 @@ namespace aso
 
 #endif // __TUPLECALLER_ASO__
 
-//--[ End of file tuplecaller ]--------------------------------------------------------------------
+//--[ End of file tuplecall ]----------------------------------------------------------------------
