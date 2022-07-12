@@ -2,7 +2,16 @@
 Simple class for call a function with arguments, packaged in a tuple.  
 Usage:
 
+    #include <functional>
+    #include <tuplecall>
+          . . .
+
+        Tuple<Type_List>::simple_call(exec, items);
+
+or
+
         Tuple<Type_List>::simple::call(exec, items);
+
 
 This project is licensed under the terms of the MIT license.
 
