@@ -2,15 +2,21 @@
 Simple class for call a function with arguments, packaged in a tuple.  
 Usage:
 
+Usage:
+
     #include <functional>
     #include <tuplecall>
           . . .
 
-        Tuple<Type_List>::simple_call(exec, items);
+        aso::simple_tuplecall(exec, items);
 
-or
+    // or, if needed:
 
-        Tuple<Type_List>::simple::call(exec, items);
+        aso::Tuple<Type_List>::simple_call(exec, items);
+
+    // or
+
+        aso::Tuple<Type_List>::simple::call(exec, items);
 
 
 This project is licensed under the terms of the MIT license.
