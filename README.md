@@ -1,6 +1,11 @@
 # tuplecall
-Simple class for call a function with arguments, packaged in a tuple
+Simple class for call a function with arguments, packaged in a tuple.  
+Usage:
 
+        simple<Type_List>::template Tuple<sizeof...(Type_List)>::caller(exec, items);
+
+It's slightly ugly, but it works.
+Sorry, this is a early release.
 
 This project is licensed under the terms of the MIT license.
 
