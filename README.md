@@ -1,6 +1,8 @@
 # tuplecall
-Simple class for call a function with arguments, packaged in a tuple.  
-Usage:
+Simple class for call a function with arguments, packaged in a tuple.
+
+    Version:        v.1.1  at 12.07.22.
+    Requirements:   C++11 or sucessor.
 
 Usage:
 
